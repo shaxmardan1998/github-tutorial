@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400&display=swap');
+
+:root{
+    --orange:#FF6454;
+    --txt-color:#21243D;
+    --bg-color-2: #EDF7FA;
+    --light-color:#8695A4;
+    --link-color:#00A8CC;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+.hero {
+    height: 100vh;
+}
+.container-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 30px;
+}
+.menu a {
+    text-decoration: none;
+    color: #111;
+}
+.container-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    justify-content: center;
+    align-items: center;
+}
+.box1 button{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 5px 10px;
+    background: var(--orange);
+    border-radius: 2px;
+    border: 0;
+}
+.box1{
+    flex: 1;
+}
+.box1 span {
+    font-size: 44px;
+    font-weight: 700;
+    color: var(--txt-color);
+}
+.item .box2{
+    flex: 1;
+}
+
+.post{
+    display: flex;
+}
+
+.item2{
+    height: 300px;
+    background: var(--bg-color-2);
+    display: flex;
+    justify-content: space-between;
+}
+.box2{
+    width: 80%;
+    margin: 20px auto ;
+}
+.class{
+    display: flex;
+    justify-content: space-between;
+}
+.rec{
+    font-size: 22px;
+    color: var(--txt-color);
+}
+.all{
+    font-size: 18px;
+    color: var(--link-color);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.text1{
+    background-color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 20px;
+}
+.number{
+    font-size: 18px;
+    font-weight: 400;
+}
+.text p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.text2{
+    background-color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 20px;
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+}
+.red{
+    padding: 20px;
+}
+.logo{
+    gap: 10px;
+}
+.img {
+    width: 246px;
+    height: 180px;
+    display: flex;
+    gap: 10px;
+}
+.des{
+    font-size: 30px;
+    font-weight: 700;
+}
+button{
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+    background-color: #111;
+}
+.non{
+    font-size: 16px;
+    font-weight: 400;
+}

@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-areas: "sidebar header header header"
+                         "sidebar main main main"  
+                         "sidebar main main main"
+                         "sidebar footer footer footer";
+    grid-template-rows: 50px 1fr 1fr 50px;
+    grid-template-columns: 300px 1fr 1fr 1fr;
+}
+.header{
+    grid-area: header;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.sidebar{
+    grid-area: sidebar ;
+    background-color: #494e5f;
+    padding: 20px;
+}
+.main{
+    background-color: #fff;
+    grid-area: main;
+}
+.footer{
+    background-color: #fff;
+    grid-area: footer;
+}
+.logo{
+    font-size: 22px;
+    color: #494e5f;
+}
+.logo__btn{
+    display: none;
+
+}
+.main{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.main li a{
+    color: #494e5f;
+}
+.sidebar__title{
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+.sidebar__posts li{
+    background-color: coral;
+    padding: 10px;
+    border-radius: 16px 0 16px 0;
+    margin-bottom: 10px;
+}
+.sidebar__posts li a{
+    display: flex;
+    gap: 10px;
+    color: aliceblue;
+}
+.sidebar__posts li a img {
+    width: 70px;
+    height: 70px;
+    border-radius: 6px;
+}
+.main{
+    padding: 50px;
+    background-color: beige;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+    color: #fff;
+}
+@media screen  and (max-width: 768px) {
+    .container{
+        width: 100%;
+        grid-template-areas: "header"
+                            "main"
+                            "sidebar"
+                            "footer";
+        grid-template-columns: 1fr;
+    }
+    .feader{
+        padding: 0 20px;
+        position: sticky;
+        top: 0em;
+    }
+    .main{
+        padding: 20px;
+    }
+    .main{
+        display:none;
+    }
+    .menu-btn{
+        display: inline;
+        font-size: 30px;
+    }
+}

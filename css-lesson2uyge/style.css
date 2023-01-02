@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-image: url('foto1.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px dashed #3A62A0 ;
+    border-radius: 20px;
+    box-shadow:  10px 10px 10px 10px  ;
+}
+.header .nav .ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;    
+}
+.header .nav .ul li a{
+    color: white;
+    text-decoration:none;
+}
+.css {
+    color:yellow;
+}
+.lorem{
+    text-align:center;
+    padding-top: 100px;
+}
+.lorem h1{
+    color: yellow
+}
+p{
+    color: white;
+}
+.lorem button{
+    margin-top: 56px;
+    padding: 7px 11px;
+    border-radius: 20px;
+    background-color:yellow;
+    color: #fff;
+    border: 1px solid #111;
+}
+.lorem .span{
+    color:coral;
+}
+.button:hover{
+    cursor: pointer;
+    color:#111;
+    background-color: #fff;
+}
+.button a{
+    text-decoration: none;
+    color: #111;
+}

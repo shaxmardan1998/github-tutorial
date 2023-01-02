@@ -1,0 +1,19 @@
+@import "variables";
+@import "button";
+@import "globalMixins";
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: red;
+
+    h1{
+        color: white;
+        text-align: center;
+        font-size: 50px;
+    }
+    p{
+        color: white;
+        text-align: center;
+    }
+}

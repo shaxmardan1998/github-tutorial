@@ -1,0 +1,23 @@
+@mixin btnIncludes {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid  #000;
+    font-size: 30px;
+}
+.btn1{
+    @include btnIncludes();
+    background-color: green;
+}
+.btn2{
+    @include btnIncludes();
+    background-color:blue;
+}
+
+@mixin autoMargin{
+    margin: 0 auto;
+    width: 80%;
+}
+@mixin gridTemplate{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}

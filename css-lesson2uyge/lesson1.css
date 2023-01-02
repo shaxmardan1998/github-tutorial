@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-image: url('foto7.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+.tinker{
+    color: red;
+    font-size: 50px;
+
+}
+.header{
+    width: 100%;
+    border: 2px dashed #fff;
+    padding: 10px;
+    box-shadow: -10px 20px 30px #fff;
+    border-radius: 20px;
+}
+.header .nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.header .nav .ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+
+}
+.header .nav .ul li{
+    list-style: none;
+    padding: 20px;
+}
+.header .nav .ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.lorem{
+    text-align: center;
+    padding: 30px;
+    border: 2px dashed #fff;
+    margin-top: 100px;
+    box-shadow: -10px 20px 30px  #fff;
+    border-radius: 20px;
+}
+.lorem h1{
+    color: yellow;
+    text-align: center;
+}
+.lorem p{
+    color: #fff;
+}
+.lorem button{
+    margin-top: 20px;
+    padding: 7px 11px;
+    border-radius: 20px;
+    background-color:yellow;
+    color: #fff;
+    border: 1px solid #111;
+}
+.lorem .span{
+    color:coral;
+}
+.button:hover{
+    cursor: pointer;
+    color:#111;
+    background-color: #fff;
+}
+.button a{
+    text-decoration: none;
+    color:#111 ;
+}

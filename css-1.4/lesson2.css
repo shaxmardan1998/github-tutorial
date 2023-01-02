@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:blue;
+}
+.content{
+    background-color: aqua;
+    border: 2px solid black;
+    padding: 20px 50px 20px;
+    margin: 20px 15px 25px 10px;
+}
+.container{
+    margin: 20px 0 30px;
+}
+.content1{
+    background-color: yellow;
+}
+.content2{
+    background-color: green;
+}
+.hello{
+    border: 10px groove #fff;
+    padding: 30px;
+    margin: 40px;
+    color: black;
+    background-color: yellowgreen;
+}
+.red{
+    background-color:crimson;
+    color: black;
+}
+.list{
+    list-style-type:square;
+    font-size: 30px;
+    color: white;
+}

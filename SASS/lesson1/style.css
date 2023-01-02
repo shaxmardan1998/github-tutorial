@@ -1,0 +1,36 @@
+.btn {
+  background-color: yellow;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.btn1 {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 2px solid #000;
+  font-size: 30px;
+  background-color: green;
+}
+
+.btn2 {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 2px solid #000;
+  font-size: 30px;
+  background-color: blue;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: red;
+}
+.container h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+.container p {
+  color: white;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

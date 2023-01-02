@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.container{
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    background-color: aqua;
+    padding: 30px;
+    justify-content: space-around;
+    border-radius: 10px;
+    gap: 10px;
+}
+.menu{
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+}
+.menu{
+    background-color:blueviolet ;
+    flex-grow: 1;
+}
+@media screen and (max-width: 900px) {
+}
+@media screen and (max-width: 768px) {
+    .menu{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 425px) {
+    .menu{
+        width: 100%;
+    }
+}
